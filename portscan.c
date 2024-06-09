@@ -22,7 +22,6 @@ int main(void){
         }
         else if (ret == -1){
             close(sock);
-            continue;    
         }
     }
     return 0;
